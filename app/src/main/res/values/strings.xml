@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_title">Error</string>
+    <string name="dialog_message">An Error has occured!</string>
+    <string name="dialog_button">OK</string>
+    <string name="toast_network_unavailable">No Netwrok available</string>
+    <string name="cityNameKey">cityNameKey</string>
+    <string name="locationKey">locationKey</string>
+</resources>

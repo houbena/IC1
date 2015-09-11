@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mainViewId"
+                android:background="#ffcccccc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city1"
+        android:id="@+id/city1Name"
+        android:textSize="42dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_above="@+id/city2Name"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city2"
+        android:id="@+id/city2Name"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:textSize="42dp"
+        android:textAlignment="gravity"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city3"
+        android:id="@+id/city3Name"
+        android:textSize="42dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_below="@+id/city2Name"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a City"
+        android:id="@+id/textView"
+        android:layout_marginBottom="59dp"
+        android:textSize="24dp"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/city1Name"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
